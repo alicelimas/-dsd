@@ -24,6 +24,7 @@ Antes de tudo, certifique-se de estar no diretório de Atividade 02 tcp-udp.
 cd .-dsd\Atividade 02 tcp-udp\
 ```
 1. **Altere o endereço ip do servidor no código do servidor:**
+   
     Caso não saiba o ip da máquina onde o servidor será executado, rode o seguinte comando no cmd:
     ```
     ipconfig
@@ -33,19 +34,22 @@ cd .-dsd\Atividade 02 tcp-udp\
     servidor.bind(('127.0.0.1', porta)) 
     ```
 
-2. **Inicie o servidor:**
+3. **Inicie o servidor:**
 
     python servidor.py
 
 ## Configuração do Cliente
 
 1. **Altere o endereço ip do servidor no cliente:**
+   
     Semelhantemente ao processo feito no servidor, você deve alterar o endereço de localhost pelo endereço real da máquina onde o servidor está sendo executado.
-    Sendo assim, substitua o endereço da seguinte linha, pelo endereço ip adequado:
+    Sendo assim, substitua o endereço das seguintes linhas, pelo endereço ip adequado:
     ```
     cliente.connect(('127.0.0.1', porta))
+    
+    endereco_servidor = ('127.0.0.1', porta)
     ```
-2. **Execute o cliente:**
+3. **Execute o cliente:**
     ```
     python cliente.py
     ```
