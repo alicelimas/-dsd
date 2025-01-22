@@ -63,12 +63,14 @@ cd .-dsd\Atividade - gRPC\
     ```
 3. **Gere os arquivos proto**
 
-    A partir do arquivo proto, você irá rodar o seguinte comando (ainda em ambiente virtual), para a geração de 2 arquivos (voting_pb2.py: Contém as classes Python para as mensagens e voting_pb2_grpc.py: Contém as classes Python para os serviços gRPC):
+    A partir do arquivo proto, você irá rodar o seguinte comando (ainda em ambiente virtual), para a geração de 2 arquivos:
     ```
     python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. voting.proto
     ```
+    - **voting_pb2.py**: Contém as classes Python para as mensagens
+    - **voting_pb2_grpc.py**: Contém as classes Python para os serviços gRPC
 
-4. **Inicie o servidor:**
+5. **Inicie o servidor:**
     Após tudo isso, você poderá executar o servidor:
 
     python server.py
