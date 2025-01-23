@@ -25,7 +25,7 @@ Antes de começar, certifique-se de que você tem o seguinte instalado:
 
 Antes de tudo, certifique-se de estar no diretório de Atividade - gRPC.
 ```
-cd .-dsd\Atividade - gRPC\
+cd . -dsd\Atividade - gRPC\
 ```
 
 1. **Criação e ativação de ambiente virtual**
