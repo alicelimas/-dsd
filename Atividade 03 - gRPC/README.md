@@ -97,4 +97,4 @@ cd . -dsd\Atividade - gRPC\
     node cliente.js
     ```
  
-Link para a apresentação de slides: [Apresentação no Canva](https://www.canva.com/design/DAGe-88ijjg/OWNRjBdNVpSuSrDObiq1Vg/edit?utm_content=DAGe-88ijjg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+PDF com a apresentação de slides: [Apresentação - gRPC](https://github.com/alicelimas/-dsd/blob/main/Atividade%2003%20-%20gRPC/Transmiss%C3%A3o%20de%20Dados%20com%20gRPC.pdf)
