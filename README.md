@@ -3,3 +3,4 @@
 2. [Atividade 02 - TCP/UDP](https://github.com/alicelimas/-dsd/tree/main/Atividade%2002%20tcp-udp)
 3. [Atividade 03 - gRPC](https://github.com/alicelimas/-dsd/tree/main/Atividade%2003%20-%20gRPC)
 4. [Atividade 04 - SOAP e REST](https://github.com/alicelimas/-dsd/tree/main/Atividade%2004%20-%20rest%20e%20soap)
+5. [Atividade 05 - Fila de Mensagens com MOM](https://github.com/alicelimas/-dsd/tree/main/Atividade%2005%20-%20mom)
